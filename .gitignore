@@ -1,0 +1,48 @@
+# Reports and raw data contain private network details unless --redact was used
+reports/
+threadprobe-*.txt
+threadprobe-raw*/
+
+# Personal tools (not part of this project)
+/gitkit.sh
+/push.sh
+
+# OS and editor clutter
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.TemporaryItems
+.DocumentRevisions-V100
+.VolumeIcon.icns
+.AppleDB
+.AppleDesktop
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.stackdump
+*~
+.directory
+.Trash-*
+.nfs*
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+
+# General defaults
+.env
+.env.*
+!.env.example
+*.log
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
